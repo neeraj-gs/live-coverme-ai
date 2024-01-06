@@ -40,8 +40,10 @@ const Progress = () => {
         Your browser does not support the video tag.
       </video>
 
+      
+
       <footer className="mt-20 ml-16 font-bold">
-        <a className="underline" href="https://github.com/neeraj-gs/CourseGen-AI" target="_blank">Download Source Code</a>
+        <a className="underline" href="https://github.com/neeraj-gs/CoverMe-AI-Chrome-Extension" target="_blank">Download Source Code</a>
         &nbsp;&nbsp;&nbsp;| &nbsp; Created With 💚 By <a href="https://github.com/neeraj-gs" target="_blank" className="underline">Neeraj G S</a> 
       </footer>
       
