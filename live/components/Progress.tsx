@@ -1,6 +1,7 @@
 "use client"
 import Image from "next/image";
 import { useEffect, useRef } from 'react';
+import TypeWriterTitle from "./TypeWriterTitle";
 
 const Progress = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
@@ -25,6 +26,9 @@ const Progress = () => {
       <h1 className='font-semibold text-lg text-center mt-2'>
         The Project is Completely Built <br /> Will Upload the Extension on the Chrome Web store Soon &nbsp; <br />
         <span className='text-green-500 font-bold'>Use & Feel Our AI Magic</span>  And Generate Cover letters and Increase chances of Getting Selected..
+        <h2 className="mt-12 mb-12 font-bold text-blue-600">
+            <TypeWriterTitle />
+        </h2>
       </h1>
       <video
         ref={videoRef}
