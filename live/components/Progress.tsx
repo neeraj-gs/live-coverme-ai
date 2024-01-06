@@ -23,8 +23,8 @@ const Progress = () => {
       <div className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2'>
       <Image className="mx-auto" src="/construction.gif" alt="Work in progress image" height={50} width={50} />
       <h1 className='font-semibold text-lg text-center mt-2'>
-        Current Progress of the Project....<br /> In Production State, Complete Project will be &nbsp;
-        <span className='text-green-500 font-bold'>Deployed </span>  Very Soon.
+        The Project is Completely Built <br /> Will Upload the Extension on the Chrome Web store Soon &nbsp; <br />
+        <span className='text-green-500 font-bold'>Use & Feel Our AI Magic</span>  And Generate Cover letters and Increase chances of Getting Selected..
       </h1>
       <video
         ref={videoRef}

@@ -1,5 +1,4 @@
 import Progress from '@/components/Progress'
-import Image from 'next/image'
 
 export default function Home() {
   return (
