@@ -13,7 +13,7 @@ const TypeWriterTitle = (props: Props) => {
       onInit={(typewriter)=>{
         typewriter.typeString("| Get Your Customized AI Generated Cover Letter |")
         .pauseFor(2000).deleteAll()
-        .typeString("| Our Scrapes the Job Description and Mixes your Uploaded Resume |")
+        .typeString("| Our AI Scrapes the Job Description and Mixes your Uploaded Resume |")
         .pauseFor(2000).deleteAll()
         .typeString("| Increased Chances of Getting Hired |")
         .pauseFor(2000).deleteAll()
